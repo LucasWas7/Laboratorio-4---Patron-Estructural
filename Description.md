@@ -1,0 +1,4 @@
+- Objetivo define la interfaz específica del dominio utilizada por el código de cliente.
+- El Adaptador contiene un comportamiento útil, pero su interfaz es incompatible con el código de cliente existente. El Adaptador necesita alguna adaptación antes de que el código del cliente pueda usarlo.
+- El Adaptador hace que la interfaz de Adaptado sea compatible con la interfaz de Objetivo.
+- El código de cliente admite todas las clases que siguen la interfaz de Objetivo.
